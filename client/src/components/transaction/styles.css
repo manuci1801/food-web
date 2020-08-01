@@ -1,0 +1,32 @@
+.transaction_card {
+  padding: 12px 18px;
+  margin: 8px 20px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.text-danger {
+  color: rgb(228 0 43);
+}
+
+.text-process {
+  color: #ff9f1c;
+}
+
+.text-success {
+  color: #83e377;
+}
+
+.card-price {
+  font-weight: 600;
+}
+
+.transaction-count {
+  background-color: rgb(228 0 43);
+  color: #fff;
+  padding: 4px 6px;
+  border-radius: 4px;
+}

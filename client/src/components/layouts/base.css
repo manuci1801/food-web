@@ -1,0 +1,173 @@
+:root{
+  --primary-color: #E4002B;
+  --black-color: #000;
+  --white-color: #fff;
+  --text-color: #707070;
+  --header-height: 164px;
+  --topbar-height: 108px;
+
+}
+
+*{
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Asap', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Modal layout */
+.modal{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+
+.modal_overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+
+.modal_body{
+ 
+  background-color: var(--white-color);
+  margin: auto;
+  position: relative;
+  z-index: 3;
+  margin-top: 50px;
+}
+
+.modal_close{
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  font-size: 2.4rem;
+  color: var(--text-color);
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.modal_inner{
+  
+  display: flex;
+}
+
+.login_form{
+  width: 500px;
+  margin: auto;
+  padding: 50px;
+}
+
+.login_form-heading{
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.login_form-group{
+  position: relative;
+  font-size: 1.6rem;
+}
+
+.login_form-label{
+  position: absolute;
+  left: 20px;
+  top: 8px;
+}
+
+.login_form-require{
+  color: var(--primary-color);
+}
+
+.login_form-input{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.login_form-input-show-password{
+  position: absolute;
+  top: 15px;
+  right: 8px;
+  font-size: 1.4rem;
+  color: rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.login_form-forgot-password{
+  position: absolute;
+  right: 0;
+  font-size: 1.4rem;
+  color: var(--text-color);
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+.login_form-checkbox{
+  margin: 30px 0;
+}
+
+.login_form-controls{
+  display: flex;
+}
+
+.login_form-btn{
+  margin: auto;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.6rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.btn1 {
+  margin: auto;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.6rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.login_form-register{
+  display: flex;
+  font-size: 1.6rem;
+}
+
+.login_form-register-inner{
+  margin: 0 auto;
+  
+}
+
+.login_form-register-text{
+  color: var(--text-color);
+}
+
+.login_form-register-link{
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+.login_form-register-link:hover{
+  color: var(--black-color);
+}

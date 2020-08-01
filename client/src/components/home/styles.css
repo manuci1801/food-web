@@ -1,0 +1,150 @@
+/* Web container */
+.web_content{
+  background-color: var(--white-color);
+  padding-top: 65px;
+  margin-top: -60px;
+}
+
+.category_title{
+display: block;
+font-size: 1.6rem;
+font-weight: 400;
+color: var(--text-color);
+margin-left: 18px;
+}
+
+.category_list{
+  padding-left: 0;
+  list-style: none;
+}
+
+.category_item-link{
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--black-color);
+  line-height: 1.6rem;
+  padding: 16px 18px;
+  display: block;
+}
+
+.category_item-link:hover{
+ text-decoration: underline;
+}
+
+.category_item-link.li-active{
+  color: var(--primary-color);
+}
+
+
+.title_heading{
+  font-size: 3.6rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+  margin-left: 18px;
+}
+
+.menu_list{
+display: flex;
+flex-direction: column;
+overflow: hidden;
+margin: 0 22px;
+}
+
+
+.menu_list-item{
+  padding: 0;
+  box-shadow: 0px 9px 18px 0px rgba(0, 0, 0, 0.075);
+  margin-bottom: 44px;
+}
+
+
+.menu_list-link{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding-top: 64%;
+  text-decoration: none;
+  display: block;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px ;
+}
+
+.menu_list-content{
+  padding: 15px 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.menu_list-heading,
+.menu_list-price{
+font-size: 1.6rem;
+color: var(--black-color);
+font-weight: 700;
+margin: 12px 10px;
+}
+
+.menu_list-description{
+font-size: 1.4rem;
+font-weight: 400;
+color: var(--text-color);
+margin-left: 20px;
+}
+
+.menu_list-icon{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-left: 112px;
+}
+
+.menu_list-btn-group{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu_list-btn{
+min-width: 93px;
+height: 36px;
+border-radius: 5px;
+line-height: 1.4rem;
+font-size: 1.4rem;
+font-weight: 700;
+text-decoration: none;
+padding: 10px 12px;
+display: block;
+}
+
+.menu_list-btn.option{ 
+color: var(--black-color);
+  background-color: var(--white-color);
+  border: 1px solid var(--black-color);
+}
+
+.menu_list-btn.order{
+color: var(--white-color);
+background-color: var(--primary-color);
+border: 1px solid var(--white-color);
+}
+
+.menu_list-btn-option,
+.menu_list-btn-order{ 
+  display: block;
+  cursor: pointer;
+}
+
+.menu_list-btn-option:hover .btn-text{ 
+  color: #40a9ff;
+}
+
+.category_item-link {
+  cursor: pointer;
+}
+
+.slide-img {
+  height: 65vh;
+  width: 80vw;
+}
+
+
